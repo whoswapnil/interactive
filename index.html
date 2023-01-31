@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+    <main>
+        <!-- Rating state start -->
+        <div class="rating-state">
+            <div class="star-bg">
+                <img src="images/icon-star.svg" alt="rating-section-icon">
+            </div>
+            <h1 class="question">How did we do?</h1>
+
+            <p class="ask">
+                Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!
+            </p>
+
+            <form class="rating-form">
+                <input type="radio" name="ratings" id="rating1" value="1">
+                <label for="rating1">1</label>
+
+                <input type="radio" name="ratings" id="rating2" value="2">
+                <label for="rating2">2</label>
+
+                <input type="radio" name="ratings" id="rating3" value="3">
+                <label for="rating3">3</label>
+
+                <input type="radio" name="ratings" id="rating4" value="4">
+                <label for="rating4">4</label>
+
+                <input type="radio" name="ratings" id="rating5" value="5">
+                <label for="rating5">5</label>
+
+                <button type="submit">SUBMIT</button>
+            </form>
+
+
+
+
+        </div>
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+        <div class="thank-you hidden">
+            <div class="illu-pos">
+                <img src="./images/ill.svg" alt="deco">
+            </div>
+
+            <div class="selection-outer">
+                <p class="selection"></p>
+            </div>
+
+
+            <h1>Thank you!</h1>
+
+            <p class="msg">
+                We appreciate you taking the time to give a rating. If you ever need more support,
+                don't hesitate to get in touch!
+            </p>
+        </div>
+        <!-- Thank you state end -->
+        <footer>
+            <div class="attribution">
+                <!-- Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+                Coded by <a href="#">Swapnil Pandey</a>.
+            </div>
+        </footer>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
